@@ -4,9 +4,9 @@ from typing import List, Tuple
 import torch
 from matplotlib import pyplot as plt
 
-from experiment.controller import RobotController
-from experiment.coordinate import random_coordinate
-from experiment.robot import Robot
+from controller import RobotController
+from experimentation.coordinate import random_coordinate
+from experimentation.robot import Robot
 
 if __name__ == "__main__":
     food = [random_coordinate() for _ in range(25)]
